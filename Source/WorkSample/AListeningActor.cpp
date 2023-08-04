@@ -4,11 +4,11 @@
 AListeningActor::AListeningActor() :
 	AActor()
 {
-	// Nothing to do here
+	bReplicates = true;
 }
 
 AListeningActor::AListeningActor(FObjectInitializer const& objectInitializer) :
 	AActor(objectInitializer)
 {
-	// Nothing to do here
+	bReplicates = true;
 }
